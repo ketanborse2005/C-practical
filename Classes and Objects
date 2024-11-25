@@ -13,17 +13,6 @@ class student
  marks=c;
  }
  void display()
-Shri Vile Parle Kelavani Mandal's 
-INSTITUTE OF TECHNOLOGY
-DHULE (M.S.)
-DEPARMENT OF COMPUTER ENGINEERING
-Subject : Object Oriented Programing lab
-Remark
-Name : Pranav Bharat Patil Roll No. : 45
-Class : SY Batch : S3 Division: B
-Expt. No. :03 Date : 21-08-2024
-Signature
-Title : Program on Classes and Objects
  {
  cout<<"Student Details are :\n";
  cout<<roll_no<<" "<<name<<" "<<marks<<endl;
