@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+try
+{
+int x,y,a;
+cout<<"Enter the value of x and y\n";
+cin>>x>>y;
+if(x>y)
+cout<<"X is greater";
+else if(x<y)
+cout<<"Y is greater";
+else
+throw a;
+}
+catch (int a)
+{
+cout<<"Both Numbers are Equal";
+}
+return 0;
+}
