@@ -1,0 +1,42 @@
+#include<iostream>
+using namespace std;
+class student
+{
+ int roll_no;
+ string name;
+ int marks;
+ public:
+ void get_data(int a,string b,int c)
+ {
+ roll_no=a;
+ name=b;
+ marks=c;
+ }
+ void display()
+Shri Vile Parle Kelavani Mandal's 
+INSTITUTE OF TECHNOLOGY
+DHULE (M.S.)
+DEPARMENT OF COMPUTER ENGINEERING
+Subject : Object Oriented Programing lab
+Remark
+Name : Pranav Bharat Patil Roll No. : 45
+Class : SY Batch : S3 Division: B
+Expt. No. :03 Date : 21-08-2024
+Signature
+Title : Program on Classes and Objects
+ {
+ cout<<"Student Details are :\n";
+ cout<<roll_no<<" "<<name<<" "<<marks<<endl;
+ }
+};
+int main()
+ {
+ student s,s1,s2;
+ s.get_data(46,"Vivek",35);
+ s.display();
+ s1.get_data(45,"Pranav",99);
+ s1.display();
+ s2.get_data(49,"Sushant",01);
+ s2.display();
+ return 0;
+ }
