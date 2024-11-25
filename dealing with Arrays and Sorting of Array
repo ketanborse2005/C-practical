@@ -1,0 +1,49 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+ int a[10],n,j,temp;
+ cout<<"Enter the number of elements :\n";
+ cin>>n;
+ cout<<"Enter thr array elements \n";
+ for(int i=0;i<n;i++)
+ {
+ cin>>a[i];
+ }
+ cout<<"The array elements are :\n";
+ for (int i=0;i<n;i++)
+ {
+ cout<<a[i]<<endl;
+Shri Vile Parle Kelavani Mandal's 
+INSTITUTE OF TECHNOLOGY
+DHULE (M.S.)
+DEPARMENT OF COMPUTER ENGINEERING
+Subject : Object Oriented Programing lab
+Remark
+Name : Pranav Bharat Patil Roll No. : 45
+Class : SY Batch : S3 Division: B
+Expt. No. :02 Date : 14-08-2024
+Signature
+Title : Program on dealing with Arrays and Sorting of Array
+ }
+ cout<<"\nSorting the Array in ascending order\n";
+ for(int i=0;i<(n-1);i++)
+ {
+ for(int j=0;j<(n-i-1);j++)
+ {
+ if(a[j]>a[j+1])
+ {
+ temp=a[j];
+ a[j]=a[j+1];
+ a[j+1]=temp;
+ }
+ }
+ }
+ cout<<"Array sorted successfully\n";
+ cout<<"The array elements after sorting are :\n";
+ for (int i=0;i<n;i++)
+ {
+ cout<<a[i]<<endl;
+ }
+ return 0;
+}
