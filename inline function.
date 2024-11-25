@@ -1,0 +1,75 @@
+#include<iostream>
+using namespace std;
+void arith(int a,int b);
+void rel(int a,int b);
+void log (int a,int b);
+void bitw (int a,int b);
+int main()
+{
+ int a,b,bit,num;
+ cout<<"Enter the two numbers\n";
+ cin>>a>>b;
+ arith(a,b);
+ rel(a,b);
+ log(a,b);
+ bitw(a,b);
+ return 0;
+Shri Vile Parle Kelavani Mandal's 
+INSTITUTE OF TECHNOLOGY
+DHULE (M.S.)
+DEPARMENT OF COMPUTER ENGINEERING
+Subject : Object Oriented Programing lab
+Remark
+Name : Pranav Bharat Patil Roll No. : 45
+Class : SY Batch : S3 Division: B
+Expt. No. :01 Date : 07-08-2024
+Signature
+Title : To implement Program on operators using inline function.
+}
+inline void arith (int a,int b)
+{
+ cout<<"\n********** Arithmetic Operator **********\n";
+ cout<<"\nThe addition of two numbers :"<<a+b<<endl;
+ cout<<"The subtraction of two numbers :"<<a-b<<endl;
+ cout<<"The multiplication of two numbers :"<<a*b<<endl;
+ cout<<"The divison of two numbers :"<<a/b<<endl;
+}
+inline void rel (int a,int b)
+{
+ bool result;
+ cout<<"\n********** Relational Operator **********\n";
+ result=(a==b);
+ cout<<"\nOutput is : "<<result<<endl;
+ result=(a!=b);
+ cout<<"Output is : "<<result<<endl;
+ result=(a>b);
+ cout<<"Output is : "<<result<<endl;
+ result=(a<b);
+ cout<<"Output is : "<<result<<endl;
+ result=(a>=b);
+ cout<<"Output is : "<<result<<endl;
+ result=(a<=b);
+ cout<<"Output is : "<<result<<endl;
+}
+inline void log (int a,int b)
+{
+ bool result;
+ cout<<"\n********** Logical Operator **********\n";
+ result=(a!=b) && (a<b);
+ cout<<"Output is : "<<result<<endl;
+ result=(a!=b) || (a<b);
+ cout<<"Output is : "<<result<<endl;
+ result=!(a==b);
+ cout<<"Output is : "<<result<<endl;
+}
+inline void bitw (int a,int b)
+{
+ bool bitw;
+ cout<<"\n********** Bitwise Operator **********\n";
+ bitw=(a&b);
+ cout<<"Output is : "<<bitw<<endl;
+ bitw=(a|b);
+ cout<<"Output is : "<<bitw<<endl;
+ bitw=(a^b);
+ cout<<"Output is : "<<bitw<<endl;
+}
