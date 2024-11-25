@@ -14,17 +14,6 @@ int main()
  log(a,b);
  bitw(a,b);
  return 0;
-Shri Vile Parle Kelavani Mandal's 
-INSTITUTE OF TECHNOLOGY
-DHULE (M.S.)
-DEPARMENT OF COMPUTER ENGINEERING
-Subject : Object Oriented Programing lab
-Remark
-Name : Pranav Bharat Patil Roll No. : 45
-Class : SY Batch : S3 Division: B
-Expt. No. :01 Date : 07-08-2024
-Signature
-Title : To implement Program on operators using inline function.
 }
 inline void arith (int a,int b)
 {
